@@ -1,0 +1,13 @@
+{
+		"clangd.semanticHighlighting": true,
+		"languageserver": {
+			"coc-clangd": {
+				"command": "clangd",
+				"rootPatterns": ["compile_commands.json", ".vim/", ".git/", ".hg/"],
+			    "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"],
+				"initializationOptions": {
+                "highlight": { "lsRanges" : true }
+				}
+			}
+		}
+}
