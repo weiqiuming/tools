@@ -7,7 +7,9 @@ call plug#begin()
 	Plug 'jackguo380/vim-lsp-cxx-highlight'
 call plug#end()
 
-colorscheme darkblue
+set statusline+=%f
+colorscheme morning
+"colorscheme darkblue
 set number
 set backspace=2
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some
